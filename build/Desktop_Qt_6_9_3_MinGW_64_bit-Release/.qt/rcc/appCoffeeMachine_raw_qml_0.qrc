@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/CoffeeMachine/">
+    <file alias="Main.qml">C:/admin/programming/c++/projects/qt/CoffeeMachine/Main.qml</file>
+  </qresource>
+</RCC>
+

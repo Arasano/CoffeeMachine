@@ -1,0 +1,478 @@
+[
+    {
+        "classes": [
+            {
+                "className": "BeanContainer",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "BeanContainer",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Containable"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "beancontainer.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "CinnamonContainer",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "CinnamonContainer",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Containable"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cinnamoncontainer.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "CoffeeBrewer",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "CoffeeBrewer",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "coffeebrewer.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "CoffeeGrinder",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "CoffeeGrinder",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Convertible"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "coffeegrinder.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "CoffeePresser",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "CoffeePresser",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Convertible"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "coffeepresser.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "CupContainer",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "CupContainer",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Containable"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cupcontainer.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "MachinePart",
+                "lineNumber": 9,
+                "object": true,
+                "qualifiedClassName": "MachinePart",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "timeLeft",
+                                "type": "int"
+                            },
+                            {
+                                "name": "totalTime",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "progressUpdated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "workStarted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "workFinished",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "workCancelled",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 4,
+                        "name": "updateProgress",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Workable"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "machinepart.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "MilkContainer",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "MilkContainer",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Containable"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "milkcontainer.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "MilkHeater",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "MilkHeater",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Convertible"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "milkheater.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "SugarContainer",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "SugarContainer",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Containable"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "sugarcontainer.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "System",
+                "lineNumber": 24,
+                "object": true,
+                "qualifiedClassName": "System",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "deviceName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "timeLeft",
+                                "type": "int"
+                            },
+                            {
+                                "name": "totalTime",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "deviceProgress",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "deviceName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "deviceStarted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "deviceName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "deviceFinished",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "processCompleted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "processCancelled",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "deviceName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "timeLeft",
+                                "type": "int"
+                            },
+                            {
+                                "name": "totalTime",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "onDeviceProgress",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "deviceName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 6,
+                        "name": "onDeviceFinished",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "deviceName",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 7,
+                        "name": "onDeviceStarted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 8,
+                        "name": "updateDebugInfo",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "system.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "VanillaSugarContainer",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "VanillaSugarContainer",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Containable"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "vanillasugarcontainer.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "WaterContainer",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "WaterContainer",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Containable"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "watercontainer.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "WaterHeater",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "WaterHeater",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "MachinePart"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Convertible"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "waterheater.h",
+        "outputRevision": 69
+    }
+]
