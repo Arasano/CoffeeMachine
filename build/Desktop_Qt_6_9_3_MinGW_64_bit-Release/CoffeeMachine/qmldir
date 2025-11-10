@@ -1,0 +1,6 @@
+module CoffeeMachine
+typeinfo appCoffeeMachine.qmltypes
+prefer :/qt/qml/CoffeeMachine/
+Main 1.0 Main.qml
+depends QtQuick
+
